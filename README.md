@@ -50,7 +50,7 @@ This will open a list of possible settings that I can configure, including the D
 <br/>
 Step 6:
 <br/>
-The window that opens allows you to set the value of the wallpaper. Click on the “Enabled” button and then enter the file path for the wallpaper.
+The window that opens allows you to set the value of the wallpaper. <br/> Click on the “Enabled” button and then enter the file path for the wallpaper.
  <br/>
 <img src="https://i.imgur.com/XgBinZL.jpg" height="50%" width="50%"
   <br/>

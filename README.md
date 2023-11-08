@@ -25,7 +25,7 @@ Step 1: <br/>
 <br/>
 Step 3:
 <br/>
- When you click this option, you will be prompted to set a name for the policy and once you do, the policy will get added to the OU.
+ When you click this option, you will be prompted to set a name for the policy and once you do, the policy will get added to the OU.<br/>
   <img src="https://i.imgur.com/gVgFNuL.jpg" height="60%" width="60%"
   <br/>
   <br />

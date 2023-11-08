@@ -17,7 +17,7 @@ Step 1: <br/> Launch Group Policy Management Application
   <br/>
   Step 2:
   <br /> 
-  I’ll expand the tree until I’ve reached the example domain tree and find the Developers OU inside it.To create a new policy, right click on the Developer option and select the first menu entry: Create a GPO in this domain and Link it here.<br/>
+  I’ll expand the tree until I’ve reached the example domain tree and find the Developers OU inside it. To create a new policy, right click on the Developer option and select the first menu entry: Create a GPO in this domain and Link it here.<br/>
   <img src="https://i.imgur.com/098Na3c.jpg" height="70%" width="70%"
 <br />
 <br />
@@ -31,7 +31,7 @@ Step 3:
 <br/>
 Step 4:
 <br/>
-I want to set a default wallpaper for the machines in the Developers OU, so we will call our policy "New Wallpaper". Once created, I want to edit the policy, to do this, right-click on the entry and click on the first menu entry “Edit".
+I want to set a default wallpaper for the machines in the Developers OU, so we will call our policy "New Wallpaper". Once created, I want to edit the policy. To do this, right-click on the entry and click on the first menu entry “Edit".
  <br/>
   <img src="https://i.imgur.com/clHscZw.jpg" height="80%" width="80%"
   <br/>
@@ -49,7 +49,7 @@ This will open a list of possible settings that I can configure, including the D
 <br/>
 Step 6:
 <br/>
-The window that opens allows you to set the value of the wallpaper. <br/> Click on the “Enabled” button and then enter the file path for the wallpaper.
+The window that opens allows you to set the wallpaper. <br/> Click on the “Enabled” button and then enter the file path for the wallpaper.
  <br/>
 <img src="https://i.imgur.com/XgBinZL.jpg" height="50%" width="50%"
   <br/>

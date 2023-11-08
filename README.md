@@ -49,3 +49,7 @@ Step 6:
 Enter a password and confirm the password into the Reset Password window. I will make sure that the "User must change password at next logon" option is already checked, this will ensure that the user will change their password when they log in. So now I'll click on the OK button to set the password. The goal of this is that after they've logged in once, I will not know their new password. <br/>
 <img src="https://i.imgur.com/QngjwQ8.png" height="100%" width="100%"
   <br/>
+<br/>
+ <br/> In Conclusion:
+ <br/>
+  That's it! I have just created Alex as a user using the Active Directory tool. From there I could add Alex to a "Group" coinciding with the department Alex belongs to or is currently working with inside of our organization.

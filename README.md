@@ -1,53 +1,57 @@
 # Managing Group Policies
 
 # Description
- - This project consist of me simply demonstrating how to create a new user account using the Active Directory utility in 6 easy steps. The Active Directory Administrative Center allows you to manage your Active Directory installation, by configuring users, groups, computers, and much more.
+ - In this lab I will demonstrate how to access and manage group policies using the Group Policy Management Tool. This application allows you to set policies that will manage the way machines in your domain behave. You can apply these policies to the whole domain or to separate Organizational Units (OUs). In this instance, I want to add a new policy to the Developers OU that I created in the virtual domain.
    
 # Enviornments & Utilities Used
- - Active Directory
+ - Policy Management Tool
  - Windows 10 Virtual Machine
 
 # Walkthrough
 <p align="center">
 Step 1: <br/>
-  Launch Active Directory Administrative Center 
+  Launch Group Policy Management Utility 
   <br/>
-  <img src="https://i.imgur.com/2u7icMT.jpg" height="25%" width="30%"
+  <img src="https://i.imgur.com/AxJSw8l.jpg" height="25%" width="30%"
 <br/>
   <br />
   <br/>
   Step 2:
   <br /> 
-  I want to create a new user named Alex. To do that, I will click on the example (local) entry. This is the entry for the domain that my account is managing. I will scroll down and double click on the "Users" entry to see the list of users and groups that currently exist. <br/>
-  <img src="https://i.imgur.com/nEsuanm.png" height="90%" width="90%"
+  I’ll expand the tree until I’ve reached the example domain tree and find the Developers OU inside it.To create a new policy, right click on the Developer option and select the first menu entry: Create a GPO in this domain and Link it here.<br/>
+  <img src="https://i.imgur.com/098Na3c.jpg" height="70%" width="70%"
 <br />
 <br />
 <br/>
-Step 3: Adding the New User
+Step 3:
 <br/>
-To create a new user, I will use the tasks list on the right. Under the "Users" section, there's a "New" menu entry, which opens a submenu to select what's the type of entity that you want to create. In this case, I want to create a new user, so I'll click on the User option.
-  <img src="https://i.imgur.com/FMGVs8f.png" height="115%" width="115%"
+ When you click this option, you will be prompted to set a name for the policy and once you do, the policy will get added to the OU.
+  <img src="https://i.imgur.com/gVgFNuL.jpg" height="60%" width="60%"
   <br/>
   <br />
 <br/>
 Step 4:
 <br/>
-This will open a new window that lets you fill in a number of fields related to the new user. There are a lot of fields available, but only a couple are mandatory (indicated with the red star). For now, I can leave the rest empty. The user that we are creating is named Alex, with their username being also alex. <br/>
-  <img src="https://i.imgur.com/i7OcAzO.jpg" height="80%" width="80%"
+I want to set a default wallpaper for the machines in the Developers OU, so we will call our policy "New Wallpaper". Once created, I want to edit the policy, to do this, right-click on the entry and click on the first menu entry “Edit".
+ <br/>
+  <img src="https://i.imgur.com/clHscZw.jpg" height="80%" width="80%"
   <br/>
   <br />
 <br/>
 Step 5:
 <br/>
-The system will not enable an account that doesn't have a good password. In this case, the password is empty because we haven't set it. Obviously, an empty password is not a good password. I can set a password using the Reset password menu option. <br/>
-  <img src="https://i.imgur.com/J4G6BBd.png" height="20%" width="20%"
+Since I want to set the wallpaper, I need to navigate to this setting by going to: <br/> 
+User Configuration > Policies > Administrative Templates > Desktop > Desktop
+ <br/>
+  <img src="https://i.imgur.com/f2PcdIh.jpg" height="80%" width="80%"
   <br/>
   <br />
 <br/>
 Step 6:
 <br/>
-Enter a password and confirm the password into the Reset Password window. I will make sure that the "User must change password at next logon" option is already checked, this will ensure that the user will change their password when they log in. So now I'll click on the OK button to set the password. The goal of this is that after they've logged in once, I will not know their new password. <br/>
-<img src="https://i.imgur.com/QngjwQ8.png" height="100%" width="100%"
+This will open a list of possible settings that I can configure, including the Desktop Wallpaper. To set the wallpaper, double-click on the Desktop Wallpaper entry. The window that opens allows you to set the value of the wallpaper. Click on the “Enabled” button and then enter the file path for the wallpaper.
+ <br/>
+<img src="https://i.imgur.com/XgBinZL.jpg" height="50%" width="50%"
   <br/>
 <br/>
  <br/> In Conclusion:

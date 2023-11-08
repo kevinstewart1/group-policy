@@ -1,7 +1,7 @@
 # Managing Group Policies
 
 # Description
- - In this lab I will demonstrate how to access and manage group policies using the Group Policy Management Tool. This application allows you to set policies that will manage the way machines in your domain behave. You can apply these policies to the whole domain or to separate Organizational Units (OUs). In this instance, I want to add a new policy to the Developers OU that I created in the virtual domain.
+ - In this lab I will demonstrate how to access and manage group policies using the Group Policy Management Tool. This application allows you to set policies that will manage the way machines in your domain behave. You can apply these policies to the whole domain or to separate Organizational Units (OUs). In this instance, I want to add a new policy regarding the Desktop Wallpaper, to the Developers OU that I created in the virtual domain.
    
 # Enviornments & Utilities Used
  - Policy Management Tool
@@ -9,8 +9,7 @@
 
 # Walkthrough
 <p align="center">
-Step 1: <br/>
-  Launch Group Policy Management Utility 
+Step 1: <br/> Launch Group Policy Management Application 
   <br/>
   <img src="https://i.imgur.com/AxJSw8l.jpg" height="25%" width="30%"
 <br/>
@@ -54,7 +53,12 @@ The window that opens allows you to set the value of the wallpaper. <br/> Click 
  <br/>
 <img src="https://i.imgur.com/XgBinZL.jpg" height="50%" width="50%"
   <br/>
+  <br />
 <br/>
- <br/> In Conclusion:
+Step 7:
+<br/>
+Once I click OK, the group policy is created! To verify this, <br/> I can go back to the Group Policy Management application and click the Settings tab of the new policy and verify the changes were made.
  <br/>
-  That's it! I have just created Alex as a user using the Active Directory tool. From there I could add Alex to a "Group" coinciding with the department Alex belongs to or is currently working with inside of our organization.
+<img src="https://i.imgur.com/LdqduXS.jpg" height="80%" width="80%"
+  <br/>
+ <br/>

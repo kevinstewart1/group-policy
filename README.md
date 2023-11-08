@@ -41,7 +41,8 @@ I want to set a default wallpaper for the machines in the Developers OU, so we w
 Step 5:
 <br/>
 Since I want to set the wallpaper, I need to navigate to this setting by going to: <br/> 
-User Configuration > Policies > Administrative Templates > Desktop > Desktop
+[User Configuration > Policies > Administrative Templates > Desktop > Desktop] <br/>
+This will open a list of possible settings that I can configure, including the Desktop Wallpaper. <br/> To set the wallpaper, double-click on the "Desktop Wallpaper" entry.
  <br/>
   <img src="https://i.imgur.com/f2PcdIh.jpg" height="80%" width="80%"
   <br/>
@@ -49,7 +50,7 @@ User Configuration > Policies > Administrative Templates > Desktop > Desktop
 <br/>
 Step 6:
 <br/>
-This will open a list of possible settings that I can configure, including the Desktop Wallpaper. To set the wallpaper, double-click on the Desktop Wallpaper entry. The window that opens allows you to set the value of the wallpaper. Click on the “Enabled” button and then enter the file path for the wallpaper.
+The window that opens allows you to set the value of the wallpaper. Click on the “Enabled” button and then enter the file path for the wallpaper.
  <br/>
 <img src="https://i.imgur.com/XgBinZL.jpg" height="50%" width="50%"
   <br/>
